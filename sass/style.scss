@@ -1,0 +1,276 @@
+@import "reset";
+@import "variables";
+
+.contenedor{
+	max-width: 950px;
+	margin:auto;
+	position: relative;
+}
+
+.principal{
+	padding-top: 20px;
+	.arriba{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+	font-family: $tipotextos;
+	font-size: 11px;
+	color: grey;
+		ul{
+			display: flex;
+			justify-content: space-end;
+			align-items: center;
+			li{
+				p{
+					border: 1px solid grey;
+					margin-left: 10px;
+					padding: 5px;
+				}
+				
+			}
+			
+		}
+	}
+}
+
+.abajo{
+	padding: 40px;
+	ul{
+	display: flex;
+	justify-content: space-around;
+	font-family: $tipotextos;
+	font-size: 12px;
+	max-width: 750px;
+	margin: auto;
+	}
+}
+/*SEGUNDA SECCIÓN*/
+
+.segunda{
+	margin-bottom: 20px;
+	img{
+		width: 100%;
+	}
+	article{
+		font-family: $tipotextos;
+		text-transform: uppercase;
+		position: absolute;
+		top: 250px;
+		width: 100%;
+    	text-align: center;
+    	color: white;
+    	letter-spacing: 1px;
+
+    	h1{
+    		font-size: 50px;
+    		margin: 20px;
+    		font-family: $tipotitulos;
+    		letter-spacing: 2px;
+    	}
+    	h4{
+    		font-size: 15px;
+    	}
+    	p{
+    		font-size: 15px;
+    	}
+	}
+}
+
+/*TERCERA SECCIÓN*/
+
+.tercera{
+	div{
+		display: flex;
+		justify-content: space-around;
+		border-top: 1px solid grey;
+		border-bottom: 1px solid grey;
+		padding: 30px;
+
+		img{
+			margin: 10px;
+			width: 90%;
+
+		}
+
+		article{
+			position: relative;
+		}
+		p{
+				text-align: center;
+    			color: white;
+    			letter-spacing: 1px;
+    			font-family: $tipotitulos;
+    			text-transform: uppercase;
+    			bottom: 100px;
+    			position: absolute;
+    			width: 100%;
+
+			}
+	}
+}
+/*CUARTA SECCIÓN*/
+
+.cuarta{
+	text-align: center;
+
+	h2{
+		font-family: $tipotitulos;
+		color: grey;
+		font-size: 12px;
+		text-transform: uppercase;
+		padding: 30px;
+		letter-spacing: 2px;
+	}
+	div{
+		border-bottom: 1px solid grey;
+		display: flex;
+		align-items: space-around;
+		article{
+			padding-bottom: 30px;
+			img{
+				padding-bottom: 20px;
+			}
+			p{
+				font-family: $tipotextos;
+				font-size: 10px;
+				color: grey;
+				text-transform: uppercase;
+			}
+			h4{
+				font-family: $tipotextos;
+				font-size: 10px;
+				color: black;
+				font-weight: bold;
+				text-transform: uppercase;
+				padding: 10px;
+				
+			}
+		}
+	}
+	
+}
+
+/*quinta seccion*/
+
+.quinta{
+div{
+	border-bottom: 1px solid grey;
+	padding: 20px;
+
+	article{	
+		text-transform: uppercase;
+		position: absolute;
+		top: 170px;
+		width: 100%;
+    	text-align: center;
+    	color: white;
+    	letter-spacing: 1px;
+    	span{
+    		font-size: 12px;
+    		font-family: $tipotextos;
+    	}
+    	h3{
+    		padding: 30px;
+    		font-size: 30px;
+    		font-family: $tipotitulos;
+    	}
+    }
+
+	img{
+		width: 100%;}
+	
+	
+    }	
+
+	}
+
+/*SEXTA SECCION*/
+
+.sexta{
+	div{
+		display: flex;
+		justify-content: space-around;
+		article{
+			color: grey;
+			padding: 10px;
+			box-sizing: border-box;
+
+
+			h3{
+				font-family: $tipotitulos;
+				font-size: 15px;
+				text-transform: uppercase;
+				padding: 10px;
+			}
+
+			p{
+				margin-top: 20px;
+				font-family: $tipotextos;
+				font-size: 12px;
+			}
+		
+		}
+	}
+}
+
+
+
+
+
+
+
+/*PAGINA INTERNA 2*/
+
+.interna2{
+	
+	article{
+		max-width: 750px;
+		margin: auto;
+		text-align: center;
+		color: grey;
+		h3{
+			text-transform: uppercase;
+			font-family: $tipotextos;
+			font-size: 12px;
+			margin: 20px;
+		}
+
+		h2{
+			text-transform: uppercase;
+			font-family: $tipotitulos;
+			font-size: 40px;
+			margin-bottom: 40px;
+			font-weight: bold;
+		}
+		span{
+			margin: 20px;
+			text-transform: uppercase;
+			font-size: 15px;
+			font-family: $tipotextos;
+		}
+		img{
+			padding: 10px;
+		}
+
+		p{
+			padding: 20px;
+			font-family: $tipotextos;
+			text-align: left;
+			font-size: 15px;
+			word-spacing: 1px;
+		}
+
+		.redes{
+			float: left;
+			margin: 10px;
+
+			span{
+				border: 1px solid grey;
+				border-radius: 20%;
+				padding: 5px 15px;
+				margin: 5px;
+			}
+		}
+	}
+}
