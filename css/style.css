@@ -176,6 +176,15 @@ table {
     width: 100%; }
 
 /*SEXTA SECCION*/
+.sexta h2 {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 20px 0px;
+  text-align: center;
+  color: grey;
+  font-family: "Roboto", sans-serif; }
 .sexta div {
   display: flex;
   justify-content: space-around; }
@@ -192,6 +201,51 @@ table {
       margin-top: 20px;
       font-family: "Roboto", sans-serif;
       font-size: 12px; }
+    .sexta div article span {
+      float: left;
+      font-family: "Roboto", sans-serif;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: grey;
+      margin-top: 15px;
+      font-weight: bold;
+      letter-spacing: 1px; }
+
+/*FOOTER*/
+.footer .footerdiv {
+  border-top: 1px solid grey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between; }
+  .footer .footerdiv article {
+    padding: 20px 20px;
+    font-family: "Roboto", sans-serif;
+    color: grey;
+    letter-spacing: 1px;
+    display: flex; }
+    .footer .footerdiv article h3 {
+      padding: 10px 0px;
+      text-transform: uppercase; }
+    .footer .footerdiv article div {
+      padding: 0px 10px; }
+      .footer .footerdiv article div ul li {
+        font-family: "Roboto", sans-serif;
+        color: grey;
+        letter-spacing: 1px;
+        padding: 3px 0px;
+        font-size: 12px; }
+  .footer .footerdiv .input {
+    display: inline-block; }
+    .footer .footerdiv .input form input {
+      padding-right: 40px;
+      padding-left: 5px; }
+  .footer .footerdiv .social {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 0px; }
+    .footer .footerdiv .social li {
+      margin: 0px 5px; }
 
 /*PAGINA INTERNA 2*/
 .interna2 article {
@@ -223,13 +277,15 @@ table {
     text-align: left;
     font-size: 15px;
     word-spacing: 1px; }
-  .interna2 article .redes {
-    float: left;
-    margin: 10px; }
-    .interna2 article .redes span {
-      border: 1px solid grey;
-      border-radius: 20%;
-      padding: 5px 15px;
-      margin: 5px; }
+
+.redes {
+  margin: 10px;
+  display: flex; }
+  .redes span {
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 20%;
+    padding: 5px;
+    margin: 5px; }
 
 /*# sourceMappingURL=style.css.map */
